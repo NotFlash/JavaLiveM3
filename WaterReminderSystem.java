@@ -55,7 +55,7 @@ public class WaterReminderSystem {
                     break;
                 case 2:
                     System.out.printf("Total diminum: %.2f liter dari %.2f liter%n",
-                            
+
                             tracker.getTotalConsumed(), user.getDailyGoal());
                     if (tracker.isGoalReached()) {
                         System.out.println(" Selamat! Anda sudah mencapai target minum hari ini!");
